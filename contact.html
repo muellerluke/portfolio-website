@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- this is cool! -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luke Mueller - Portfolio</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <header class="page-header">
+      <!-- Add my logo here -->
+      <img src="img/logo.png" alt="logo" class="page-header__item">
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+          </li>
+          <li role="presentation">
+             <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+          </li>
+        </ul>
+      </nav>
+  </header>
+  <div class="profile">
+    <!-- Add my portrait here -->
+    <img src="img/portrait.jpg" class="profile__portrait" alt="Luke Mueller Portrait">
+    <h1>Contact</h1>
+    <div>
+      Luke Mueller<br>
+      Hartford, WI 53027<br>
+      United States of America<br>
+      Phone: <a href="tel:+1(262)224-2807">(262)224-2807</a><br>
+      Skype: <a href="skype:live.muellerluke24">live.muellerluke24</a><br>
+      Email: <a href="mailto:muellerluke24@gmail.com">muellerluke24@gmail.com</a>
+      <form action="" method="post" id="contact-form">
+        <label class="standard-label" for="contact-email">E-mail: </label>
+        <input type="email" id="contact-email" required><br>
+
+        <label class="standard-label" for="contact-tele">Telephone: </label>
+        <input type="tel" id="contact-tele" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
+
+        <label class="standard-label" for="contact-message">Message: </label>
+        <textarea maxlength="240" id="contact-message" required></textarea>
+        <input type="submit" value="Send message">
+      </form>
+    </div>
+  </div>
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <img src="img/github_icon.svg" alt="github">
+      <img src="img/twitter_icon.svg" alt="twitter">
+      <img src="img/linkedin_icon.svg" alt="linkedin">
+    </div>
+  </footer>
+</body>
+<script src="js/tota11y.min.js"></script>
+</html>
