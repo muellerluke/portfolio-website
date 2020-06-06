@@ -8,7 +8,7 @@ padding, border, margin
 top and bottom, right and left
 */
 :root {
-  --whtie-color: #fff;
+  --white-color: #fff;
   --primary-color: #357b70;
   --secondary-color: #489c79;
   --primary-animat-color: #edc655;
@@ -19,6 +19,7 @@ top and bottom, right and left
   --large-font_size: 30px;
   --med-font_size: 24px;
 }
+
 * {
   box-sizing: border-box;
 }
