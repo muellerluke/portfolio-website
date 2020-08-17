@@ -2,36 +2,45 @@
 <html>
   <!-- this is cool! -->
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Luke Mueller - Portfolio</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap"
-      rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
   <body>
     <header class="page-header">
       <!-- Add my logo here -->
-      <img src="img/logo.png" alt="logo" class="page-header__item">
+      <img src="img/logo.png" alt="logo" class="page-header__item" />
       <nav class="main-navigation page-header__item">
         <ul role="menubar" class="navigation-list">
           <li role="presentation">
-            <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+            <a href="index.html" role="menuitem" class="navigation-list__item"
+              >Home</a
+            >
           </li>
           <li role="presentation">
-            <a href="about.html" role="menuitem" class="navigation-list__item">About
-              Me</a>
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About Me</a
+            >
           </li>
           <li role="presentation">
-            <a href="work.html" role="menuitem" class="navigation-list__item
-              navigation-list__item--active">Work</a>
+            <a
+              href="work.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Work</a
+            >
           </li>
           <li role="presentation">
-            <a href="contact.html" role="menuitem"
-              class="navigation-list__item">Contact</a>
+            <a href="contact.html" role="menuitem" class="navigation-list__item"
+              >Contact</a
+            >
           </li>
         </ul>
       </nav>
@@ -43,48 +52,88 @@
         <div class="grid__item">
           <h2>NodeJS API</h2>
           <p>
-            Used NodeJS and Mongo to create an API for a movie Application.
+            Used NodeJS and MongoDB to create an API for a movie Application.
+            This included writing the endpoints for all of the requests and
+            adding information into the database.
           </p>
-          <a href="https://github.com/muellerluke/movie_api">See project on
-            GitHub</a>
+          <a target="_blank" href="https://github.com/muellerluke/movie_api"
+            >See project on GitHub</a
+          >
         </div>
         <div class="grid__item">
           <h2>React Frontend for API</h2>
           <p>
-            Created a frontend with React for the NodeJS API. <a
-              href='https://myflixluke.herokuapp.com/client/'>See it here.</a>
+            Created a frontend with React for the NodeJS API. This included many
+            components such as the login view, movie view, registration view,
+            profile view and many more.
+            <a target="_blank" href="https://myflixluke.herokuapp.com/client/"
+              >See it here.</a
+            >
           </p>
-          <a href="https://github.com/muellerluke/movie_api">See project on
-            GitHub</a>
+          <a target="_blank" href="https://github.com/muellerluke/movie_api"
+            >See project on GitHub</a
+          >
         </div>
         <div class="grid__item">
           <h2>Angular Quiz</h2>
           <p>
             Created an Angular application that gets data from json files to
-            populate a quiz. <a
-              href='https://muellerluke.github.io/my-awesome-quiz-app/welcome'>See
-              it here.</a>
+            populate a quiz. The results are then shown at the end.
+            <a
+              target="_blank"
+              href="https://muellerluke.github.io/my-awesome-quiz-app/welcome"
+              >See it here.</a
+            >
           </p>
-          <a href="https://github.com/muellerluke/my-awesome-quiz-app">See
-            project on GitHub</a>
+          <a
+            target="_blank"
+            href="https://github.com/muellerluke/my-awesome-quiz-app"
+            >See project on GitHub</a
+          >
         </div>
         <div class="grid__item">
           <h2>Vue Todo List</h2>
           <p>
-            Created a todo list using Vue. <a
-              href='https://muellerluke.github.io/todo-final/'>See it here.</a>
+            Created a todo list using Vue. Users are able to create, check off,
+            and edit items on the todo list.
+            <a target="_blank" href="https://muellerluke.github.io/todo"
+              >See it here.</a
+            >
           </p>
-          <a href="https://github.com/muellerluke/todo-final">See project on
-            GitHub</a>
+          <a target="_blank" href="https://github.com/muellerluke/todo"
+            >See project on GitHub</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>Pokedex Using jQuery</h2>
+          <p>
+            Created a Pokedex application using jQuery. The application get data
+            from a pokedex API and populates cards using jQuery. When clicked
+            on, a modal will appear with more information.
+          </p>
+          <a
+            target="_blank"
+            href="https://github.com/muellerluke/pokedexRepo-jQuery"
+            >See project on GitHub</a
+          >
         </div>
       </div>
     </section>
     <footer class="page-footer">
       <p>Find me on</p>
       <div class="social-media">
-        <img src="img/github_icon.svg" alt="github">
-        <img src="img/twitter_icon.svg" alt="twitter">
-        <img src="img/linkedin_icon.svg" alt="linkedin">
+        <a href="https://github.com/muellerluke" target="_blank"
+          ><img src="img/github_icon.svg" alt="github"
+        /></a>
+        <a href="https://twitter.com" target="_blank"
+          ><img src="img/twitter_icon.svg" alt="twitter"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/luke-mueller-818b701a1/"
+          target="_blank"
+        >
+          <img src="img/linkedin_icon.svg" alt="linkedin" />
+        </a>
       </div>
     </footer>
   </body>
