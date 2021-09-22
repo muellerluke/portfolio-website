@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /*
 Colors Used:
 
@@ -120,9 +121,121 @@ button:hover, button:focus, .button:hover, .button:focus {
 .navigation-list li {
   display: inline-block;
   margin-left: 15px;
+=======
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
-/* Grid fallback*/
 
+body {
+  background-attachment: fixed;
+  background-image: url("../img/background.jpg");
+  font-family: 'Fira Code', monospace;
+  text-align: center;
+}
+
+.nav-link {
+  font-weight: bolder;
+}
+
+.section-header {
+  font-size: xx-large;
+  font-weight: bolder;
+  min-height: 80px;
+  width: 100%;
+  color: black;
+  background-color: white;
+  margin-bottom: 0;
+}
+
+.section-paragraph {
+  margin-top: 10px;
+  font-size: x-large;
+}
+
+.profile {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  height: 100vh;
+}
+
+#typeWriterText {
+  width: auto;
+  background-color: black;
+  font-size: xx-large;
+  color: white;
+}
+
+#portrait {
+  border-radius: 50%;
+  border: 10px white solid;
+  width: 15%;
+  margin-bottom: 5%;
+}
+
+#projects {
+  width: 100%;
+  height: auto;
+}
+
+#about {
+  height: 110vh;
+}
+
+#about__colored-col {
+  background-color: white;
+  height: 100%;
+}
+
+#about__row {
+  height: 100%;
+}
+
+.about__image {
+  height: 52.5vh;
+}
+
+#about__grid {
+  grid-template-columns: 1fr 1fr;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  grid-gap: 5vh;
+  justify-items: center;
+}
+
+#contact {
+  height: 100vh;
+}
+
+#contact__row {
+  height: 50%;
+}
+
+#contact__colored-col {
+  background-color: white;
+  height: 100%;
+  padding: 10px;
+}
+
+#contact__noncolored-col {
+  height: 100%;
+  padding-top: 150px;
+}
+
+.social-media-text {
+  color: black;
+}
+
+#contactTypeWriter {
+  width: auto;
+  background-color: black;
+  font-size: xx-large;
+  color: white;
+>>>>>>> Stashed changes
+}
+
+<<<<<<< Updated upstream
 .grid__item {
   display: inline-block;
   width: 33%;
@@ -133,40 +246,41 @@ button:hover, button:focus, .button:hover, .button:focus {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
+=======
+.grid__item-image {
+  width: 100%;
 }
-.grid__item {
-  background-color: lightgray;
-  padding: 10px;
-  width: auto;
+
+.project_container {
+    background-color: white;
+>>>>>>> Stashed changes
+}
+
+.project_container h2 {
+  min-height: 80px;
+  height: auto;
+  overflow-y: hidden;
 }
 .profile-list__item--last {
   margin-bottom: 50px;
 }
 
-@media all and (max-width:500px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
+.spacer {
+  height: 56px;
 }
 
-@media all and (min-width: 500px) and (max-width: 750px) {
-  .grid {
-    grid-template-columns: 1fr 1fr;
+@media all and (max-width: 1280px) {
+  #profile {
+    margin-top: 200px;
   }
-}
 
-@media all and (max-width: 750px) {
-  .grid {
-    grid-gap: 10px;
+  #portrait {
+    border: 10px white solid;
+    width: 50%;
+    margin-bottom: 5%;
   }
-  .grid__item:last-child {
-    grid-column: auto / auto;
-    grid-row: auto / auto;
-    }
-    h1 {
-      font-size: var(--med-font_size);
-    }
 }
+<<<<<<< Updated upstream
 @keyframes color-change {
   0% {
     fill: var(--primary-animat-color);
@@ -211,3 +325,5 @@ button:hover, button:focus, .button:hover, .button:focus {
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+=======
+>>>>>>> Stashed changes

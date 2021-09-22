@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Luke Mueller - Portfolio</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<<<<<<< Updated upstream
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -47,4 +48,221 @@
     </div>
   </footer>
 </body>
+=======
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body onload="typeWriter()">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#profile-spacer" aria-label="#profile">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects-spacer" aria-label="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-spacer" aria-label="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-spacer" aria-label="#contact">Contact</a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="profile-spacer" class="spacer"></div>
+    <div class="profile" id="profile">
+      <div class="row">
+          <div class="col">
+            <img src="img/portrait.jpg" id="portrait" alt="my portrait">
+          </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span id="typeWriterText"></span>
+            </div>
+        </div>
+    </div>
+    <div id="projects-spacer" class="spacer"></div>
+    <div id="projects">
+        <div class="row">
+            <h1 class="col-12 section-header">My Projects</h1>
+            <!-- Grid items will live here -->
+            <div class="col-lg-4 col-md-6 col-sm-12 project_container">
+              <h2>React Frontend for Node.js API</h2>
+              <img src="img/react-movie.jpg" class="grid__item-image" alt="React Movie Prject Image">
+              <p>
+                Created a frontend with React for the NodeJS API. This included many
+                components such as the login view, movie view, registration view,
+                profile view and many more.
+                <a target="_blank" href="https://myflixluke.herokuapp.com/client/"
+                  >See it here.</a
+                >
+              </p>
+              <a target="_blank" href="https://github.com/muellerluke/movie_api"
+                >See project on GitHub</a
+              >
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 project_container">
+              <h2>Angular Quiz</h2>
+              <img src="img/angular-quiz.jpg" class="grid__item-image" alt="Angular Quiz Project Image">
+              <p>
+                Created an Angular application that gets data from json files to
+                populate a quiz. The results are then shown at the end.
+                <a
+                  target="_blank"
+                  href="https://muellerluke.github.io/my-awesome-quiz-app/welcome"
+                  >See it here.</a
+                >
+              </p>
+              <a
+                target="_blank"
+                href="https://github.com/muellerluke/my-awesome-quiz-app"
+                >See project on GitHub</a
+              >
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 project_container">
+              <h2>Vue Todo List</h2>
+              <img src="img/vue-todo.jpg" class="grid__item-image" alt="Vue Todo Project Image">
+              <p>
+                Created a todo list using Vue. Users are able to create, check off,
+                and edit items on the todo list.
+                <a target="_blank" href="https://muellerluke.github.io/todo"
+                  >See it here.</a
+                >
+              </p>
+              <a target="_blank" href="https://github.com/muellerluke/todo"
+                >See project on GitHub</a
+              >
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 project_container">
+              <h2>Pokedex Using jQuery</h2>
+              <img src="img/pokedex.jpg" class="grid__item-image" alt="jQuery Pokedex Project Image">
+              <p>
+                Created a Pokedex application using jQuery. The application get data
+                from a pokedex API and populates cards using jQuery. When clicked
+                on, a modal will appear with more information.
+                <a target="_blank" href="https://muellerluke.github.io/pokedexRepo-jQuery/"
+                  >See it here.</a
+                >
+              </p>
+              <a
+                target="_blank"
+                href="https://github.com/muellerluke/pokedexRepo-jQuery"
+                >See project on GitHub</a
+              >
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 project_container">
+              <h2>Node + HTML + JS Course Rating Website</h2>
+              <img src="img/coursifyit.jpg" class="grid__item-image" alt="CoursifyIt Project Image">
+              <p>
+                This is a business I am working on. The backend is written in Node using MongoDB to store the data and the frontend is written in Javascript and HTML.
+                I am currently working on converting the site over to a progressive web application written in React. Users are able to create an account, verify that account via email verification, rate individual aspects of courses, and view ratings for classes.
+                 <a target="_blank" href="https://coursifyit.com">See it here.</a>
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 project_container">
+              <h2>React-Native Chat Application</h2>
+              <img src="img/react-native-app.jpg" class="grid__item-image" alt="React-Native Chat Project Image">
+              <p>
+                A React-Native application for chatting developed using React-Native Gifted Chat. The application also allows users to send and receive their location and images.
+                Images can also be taken directly from the application using Expo Image Picker and locations are displayed using React-Native Maps.
+                Information is stored using a Google Firebase realtime database.
+              </p>
+              <a
+                target="_blank"
+                href="https://github.com/muellerluke/ChatApp"
+                >See project on GitHub</a
+              >
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 project_container">
+              <h2>Node.js API</h2>
+              <p>
+                Used NodeJS and MongoDB to create an API for a movie Application.
+                This included writing the endpoints for all of the requests and
+                adding information into the database.
+              </p>
+              <a target="_blank" href="https://github.com/muellerluke/movie_api"
+                >See project on GitHub</a
+              >
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 project_container">
+              <h2>React Data Visualization Progressive Web Application</h2>
+              <p>
+                An application that requests data from the MeetUp API (using token authentication and AWS services)
+                 then displays that data using React and Rechart. I also wrote test cases for the project as well utilizing Jest.
+                 <a target="_blank" href="https://muellerluke.github.io/meetup/">See it here.</a>
+              </p>
+              <a
+                target="_blank"
+                href="https://github.com/muellerluke/meetup"
+                >See project on GitHub</a
+              >
+            </div>
+          </div>
+    </div>
+    <div id="about-spacer" class="spacer"></div>
+    <div id="about">
+        <div class="row" id="about__row">
+            <div class="col-lg-6 col-md-6 col-sm-12" id="about__colored-col">
+                <h1 class="section-header">About Me</h1>
+                <p class="section-paragraph">I am currently a student at Wisconsin Lutheran College in Milwaukee studying Business Marketing, but I am also a graduate of the Career Foundry Full Stack Development Course.
+                    While working on this course, I used the skills and languages I learned, such as Node, MongoDB, and vanilla Javascript, to launch a <a href="https://www.coursifyit.com" target="_blank">website</a> for rating college classes. Students are able to read and write reviews based on a number of
+                    aspects such as homework difficulty and amount, exam difficulty, how well the teacher teaches, and more. After learning more about progressive web applications however, I decided to rewrite the website in React and convert it into a progressive web application.
+                    I am an extremely motivated and morally centered individual, striving always to be successful at the highest level. I have a passion for fitness, specifically powerlifting and also enjoy spending time with my family outdoors.
+                    Volunteering is also a large part of my life. I volunteered at numerous sports camps and spent a several weeks in Florida after Hurricane Michael hit and was greatly blessed with the opportunity to help large number of families.
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12" id="about__noncolored-col">
+                <div class="grid" id="about__grid">
+                    <img src="img/hiking.jpg" class="about__image" alt="hiking">
+                    <img src="img/powerlifting.jpg" class="about__image" alt="powerlifting">
+                    <img src="img/hiking-with-family.jpg" class="about__image" alt="hiking with family">
+                    <img src="img/volunteering.jpg" class="about__image" alt="volunteering">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="contact-spacer" class="spacer"></div>
+    <div id="contact">
+        <div class="row" id="contact__row">
+            <div class="col-lg-6 col-md-6 col-sm-12" id="contact__noncolored-col">
+                <span id="contactTypeWriter"></span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12" id="contact__colored-col">
+                <p class="section-paragraph">Email: muellerluke24@gmail.com<br> Instagram: muellerluke240</p>
+                <div class="page-footer">
+                    <p class="social-media-text section-paragraph">Find me on</p>
+                    <div class="social-media">
+                        <a href="https://twitter.com/muellerluke24">
+                            <img src="img/twitter_icon.svg" alt="twitter">
+                        </a>
+                        <a href="https://github.com/muellerluke">
+                            <img src="img/github_icon.svg" alt="github">
+                        </a>
+                      <a href="https://www.linkedin.com/in/luke-mueller-818b701a1/" >
+                        <img src="img/linkedin_icon.svg" alt="linkedin">
+                    </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+  </body>
+>>>>>>> Stashed changes
 </html>
